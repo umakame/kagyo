@@ -85,7 +85,7 @@ class _LoginState extends State<Login> {
                     // 問題があるときはメッセージを返す
                     return 'パスワードを入力して下さい';
                   }
-                  // 問題ないときはnullを返す
+                  // 問題ないときはnullを返す。
                   return null;
                 },
                 decoration: InputDecoration(
